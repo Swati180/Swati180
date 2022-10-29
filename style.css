@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 @font-face {
     font-family: 'Exo Space';
     src: url('./font/Exo_space.ttf');
@@ -19,6 +21,9 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box; 
+    }
+    body {
+        background-color: #000;
     }
 
     html {
@@ -44,7 +49,7 @@
 
     .progress-bar {
         height: 10px;
-        background: #001C55;
+        background: #facf0f;
         width: 0%;
     }
 
@@ -94,7 +99,7 @@
 
     #about{
         /* padding: 80px 0; */
-        color: #001C55; 
+        color: #fffbfbeb; 
     }
     .row{
         display: flex;
@@ -111,7 +116,7 @@
         max-height: 80%;
         max-width: 80%;
         border-radius: 50%;
-        border: 3px solid #72351C;
+        /* border: 3px solid #72351C; */
     }
     .about-col-2{
         flex-basis: 70%;
@@ -119,6 +124,7 @@
     .about-col-2>p{
         font-size: 22px;
         font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
     }
     .tab-title{
         display: flex;
@@ -135,20 +141,20 @@
         position: relative;
     }
     .tab-links:hover{
-        color: #72351C;
+        color: #facf0f;
     }
     .tab-links::after{
         content: '';
         width: 0;
         height: 3px;
-        background: #72351C;
+        background: #facf0f;
         position: absolute;
         left: 0;
         bottom: -8px;
         transition: 0.7s; 
     }
     .active-link{
-        color: #72351C;
+        color: #facf0f;
     }
     .tab-links.active-link::after{
         width: 100%;
@@ -159,7 +165,7 @@
     }
             
     .tab-contents ul li span{
-        color: #72351C;
+        color: #facf0f;
         font-size: 18px;
         font-weight: bold;
     }
@@ -170,7 +176,7 @@
         display: block;
     }
     .tab-contents ul li .co{
-        color: #001C55;
+        color: #fffbfbeb;
         font-size: 15px;
         letter-spacing: 1px;
     }
@@ -206,7 +212,7 @@
         /* text-transform: uppercase; */
         animation: box10 2s infinite;
         animation-delay: calc(.1s * var(--i));
-        color: #001C55;
+        color: white;
     
     }
 
@@ -232,7 +238,7 @@
         font-size: 28px;
         text-align: left;
         padding: 40px;
-        color: #001C55;
+        color: #fffbfbeb;
     }
     .box112{
         width: 40%;
@@ -253,20 +259,21 @@
     .rbtn{
         /* font-family: 'CYBORG'; */
         font-family: 'Baloo Bhai 2', cursive;
-        padding: 5px 10px; 
-        font-size: 18px;
-        background-color: #001C55;    
+        padding: 10px 16px; 
+        font-size: 21px;
+        background-color: #facf0f;  
+        color: #000;  
         border: none;
         border-radius: 7px;
-        box-shadow: 9px 7px 32px -11px #72351C;
+        box-shadow: 9px 7px 32px -11px #7b716c;
         transition: all .3s ease-in-out 0s; 
         margin-top: 20px;  
         /* transform: rotate(-3.6deg);           */
     }
 
     .rbtn:hover{
-        border: 3px solid #635e87;
-        box-shadow: #001C55 0px 3px 29px 0px;
+        border: 3px solid #f2ea06;
+        box-shadow: #c1bbc3 0px 3px 29px 0px;
         
     }
 
@@ -275,7 +282,7 @@
     }
     .rbtn>a{
         text-decoration: none;
-        color: #E0E0E0; 
+        color: #000; 
     }
 
 
@@ -303,8 +310,8 @@
         /* transform: rotate(-3.6deg); */
         border-radius: 12px;
         padding: 0 10px;
-        color: #001C55;
-        border: 4px solid #001C55;
+        color: #facf0f;
+        border: 4px solid #facf0f;
     }
 
     .box22{
@@ -413,8 +420,8 @@
         padding: 5px;
         /* transform: rotate(-3.6deg); */
         border-radius: 12px;
-        color: #001C55;
-        border: 4px solid #001C55;
+        color: #facf0f;
+        border: 4px solid #facf0f;
         font-weight: bolder;
     }
 
@@ -448,7 +455,7 @@
         width: 350px;
         margin: auto;
         height: 245px;
-        border: 1px solid #001C55;
+        border: 1px solid #facf0f;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
       }
       
@@ -572,8 +579,8 @@
         padding: 5px;
         /* transform: rotate(-3.6deg); */
         border-radius: 12px;
-        color: #001C55;
-        border: 4px solid #001C55;
+        color: #facf0f;
+        border: 4px solid #facf0f;
         font-weight: bolder;
     }
 
@@ -611,13 +618,14 @@
 /* ====================== css for box5 ========================= */
 /* ====================== css for box5 ========================= */
     .box5{
+        background: #001C55;
         /* font-family: 'Exo Space'; */
         font-family: 'Baloo Bhai 2', cursive;
 
         width: 100%;
         /* margin: auto; */
         padding: 20px 40px;
-        background-color: #E0E0E0;
+        /* background-color: rgb(177, 176, 176); */
     }
     .box51{
         width: fit-content;
@@ -628,8 +636,8 @@
         padding: 5px;
         /* transform: rotate(-3.6deg); */
         border-radius: 12px;
-        color: #001C55;
-        border: 4px solid #001C55;
+        color: white;
+        border: 4px solid white;
         font-weight: bolder;
     }
     .box52{
@@ -641,7 +649,7 @@
     }
     .box5111{
         margin-top: 10px;
-        color: #001C55;
+        color: white;
         /* text-align: center; */
     }
     .box5112{
@@ -653,7 +661,8 @@
     .ico>a>i{
         color: white;
         padding: 10px;
-        background: #001C55;
+        /* background: #001C55; */
+        background-color: black;
         border-radius: 50%;
       }
 
@@ -666,10 +675,10 @@
         max-width: 200px;
         max-height: 200px;
         border-radius: 50%;
-        border: 4px solid #72351C;
+        /* border: 4px solid #72351C; */
     }
     .box5h1{
-        color: #001C55;
+        color: white;
         font-size: 35px;
         /* text-align: center; */
     }
@@ -711,7 +720,7 @@
         /* font-family: 'Exo Space'; */
         font-family: 'Baloo Bhai 2', cursive;
 
-        color: #001C55;
+        color: #fffbfbeb;
         padding: 20px 40px;
         width: 700px;
         margin: auto;
@@ -990,7 +999,7 @@
         position: fixed; 
         bottom: 20px; 
         right: 30px; 
-        color: #72351C;
+        color: #facf0f;
     }
 
     @media screen and (min-width: 521px) and (max-width: 730px){
@@ -1137,7 +1146,7 @@
 
     .tdn{
     text-decoration: none;
-    color: #001C55;
+    color: black;
     }
 
     .menu>li{

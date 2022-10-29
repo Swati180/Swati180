@@ -55,7 +55,7 @@
                                                          
 <h3 align="left">Connect with me</h3>
 <p align="center">
-<a href="https://www.linkedin.com/in/swati-parmar2000/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Naveen Saini" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/swati-parmar2000/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="swati parmar" height="30" width="40" /></a>
 </p>
 </div>  
 
@@ -64,7 +64,6 @@
                                                           
 
 <h3 align="left">🛠 &nbsp;Tech Stack </h3>
-
 <div align="center">
 
 	
