@@ -857,7 +857,9 @@
 
     .contrib-column>.contrib-number{
         font-size: 16px;
+        color: white;
     }
+    
     .box8>.calendar{
         min-height: auto;
         max-height: auto;
