@@ -115,7 +115,7 @@
     .about-col-1 img{
         max-height: 80%;
         max-width: 80%;
-        border-radius: 50%;
+        border-radius: 23%;
         /* border: 3px solid #72351C; */
     }
     .about-col-2{
@@ -259,7 +259,7 @@
     .rbtn{
         /* font-family: 'CYBORG'; */
         font-family: 'Baloo Bhai 2', cursive;
-        padding: 10px 16px; 
+        padding: 2px 16px; 
         font-size: 21px;
         background-color: #facf0f;  
         color: #000;  
@@ -621,7 +621,7 @@
         background: #001C55;
         /* font-family: 'Exo Space'; */
         font-family: 'Baloo Bhai 2', cursive;
-
+/* border: 10px solid gray; */
         width: 100%;
         /* margin: auto; */
         padding: 20px 40px;
@@ -635,7 +635,7 @@
     .box51>h1{
         padding: 5px;
         /* transform: rotate(-3.6deg); */
-        border-radius: 12px;
+        border-radius: 12px ;
         color: white;
         border: 4px solid white;
         font-weight: bolder;
@@ -854,7 +854,9 @@
 
 
     /* ================css for box 8=============== */
-
+    .contrib-column{
+        color: white;
+    }
     .contrib-column>.contrib-number{
         font-size: 16px;
         color: white;
