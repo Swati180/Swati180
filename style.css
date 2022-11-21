@@ -619,6 +619,7 @@
 /* ====================== css for box5 ========================= */
     .box5{
         background: #001C55;
+        /* background: #1e504f; */
         /* font-family: 'Exo Space'; */
         font-family: 'Baloo Bhai 2', cursive;
 /* border: 10px solid gray; */
@@ -648,10 +649,13 @@
         padding: 30px;
     }
     .box5111{
+        text-decoration: none;
         margin-top: 10px;
         color: white;
+        text-decoration: none;
         /* text-align: center; */
     }
+   
     .box5112{
         display: flex; 
         gap: 20px;
