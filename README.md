@@ -32,7 +32,7 @@
   
 <div>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Swati180&theme=radical&langs_count=8" alt="Swati Parmar" height="260px" width="25%" />
-  <img align="right" alt="Error" src="" height="255px" width="70%"/>
+
 <div>
 
 
