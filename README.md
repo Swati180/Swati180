@@ -60,6 +60,9 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/swati-parmar2000/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="swati parmar" height="30" width="40" /></a>
 </p>
+	<p align="center">
+<a href="file:///C:/Users/Lenovo/IdeaProjects/Swati180/index.html" target="blank"><img align="https://camo.githubusercontent.com/56e6045a9403c591ff7c6a997edcd1566597519fa8b8e1129b4919bf10b5c2bd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f7274666f6c696f2d3138413330333f7374796c653d666f722d7468652d6261646765266c6f676f3d696f6e6963266c6f676f436f6c6f723d7768697465" alt="swati parmar" height="30" width="40" /></a>
+</p>
 </div>  
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
