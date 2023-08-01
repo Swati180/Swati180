@@ -16,7 +16,7 @@
 - 🔭 I’m currently working on *MySkill😄*
 - 🌱 I’m currently learning at *Masai School*
 - 💬 Ask me about *Java*
-- 👨‍💻 This is [My Portfolio](https://Swati180.github.io/Swati180/)
+- 👨‍💻 This is [My Portfolio](https://swati180.github.io/Swati180/)
 - 📄 This is [My Resume](https://drive.google.com/file/d/1gUHxZh7K0bp-UTnUz-9hS5Pb_TLJ36VJ/view?usp=share_link)
 - 📫 How to reach me: *swati.p250996@gmail.com*
 
