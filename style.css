@@ -73,6 +73,14 @@
     /* ====================== css for box0 ========================= */
     /* ====================== css for box0 ========================= */
 
+    .box{
+        /* background-color: #E0E0E0; */
+        padding: 30px;
+        /* font-family: 'Exo Space'; */
+        /* font-family: 'CYBORG'; */
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
     .box0{
         /* background-color: #E0E0E0; */
         padding: 30px;
@@ -1210,5 +1218,45 @@
     color: black;
     background-color: #fff;
   }
+}
+
+ /* css for experience */
+ #experience {
+    color: #facf0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+  
+}
+
+.experience-item {
+    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-item img {
+    width: 25%;
+    height: 25%;
+    margin-right: 10px;
+}
+
+.experience-item h3,
+.experience-item p {
+    margin: 0;
+}
+
+.experience-item ul {
+    color: white;
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.experience-item li {
+    color: white;
+    list-style-type: disc;
+    margin-bottom: 5px;
 }
 
