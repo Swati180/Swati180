@@ -594,4 +594,9 @@
 <script>
     GitHubCalendar(".calendar", "Swati180");
     GitHubCalendar(".calendar", "Swati180", { responsive: true });
+     GitHubCalendar(".calendar", "Swati180", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${Swati180}`)
+       }
+    }).then(r => r.text())
 </script>
